@@ -45,7 +45,7 @@ function oddsSmallerThan(num) {
   return Math.floor(num / 2);
 }
 
-console.log(oddsSmallerThan(21));
+console.log(oddsSmallerThan());
 
 /**
  * squareOrDouble(n):
@@ -65,6 +65,6 @@ function squareOrDouble(number) {
   }
 }
 
-console.log(squareOrDouble(3));
+console.log(squareOrDouble());
 
 module.exports = { greet, isOdd, oddsSmallerThan, squareOrDouble };
